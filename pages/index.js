@@ -1,13 +1,27 @@
 import Head from "next/head";
+import { TbBrandVscode } from "react-icons/tb";
 import {
   AiFillLinkedin,
   AiFillGithub,
 } from "react-icons/ai";
 import { 
   DiJavascript1,
-  DiReact
+  DiReact,
+  DiSass,
+  DiBootstrap,
+  DiNodejsSmall,
+  DiMongodb,
+  DiGithubBadge,
 } from "react-icons/di";
-import { SiNextdotjs } from "react-icons/si";
+import { 
+  SiNextdotjs,
+  SiTailwindcss,
+  SiExpress,
+  SiJira,
+  SiPython,
+  SiJetbrains,
+  SiPostgresql
+ } from "react-icons/si";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 // import deved from "/public/dev-ed-wave.png";
@@ -75,102 +89,93 @@ export default function Home() {
         </section>
         <section>
           <div>
-          <section class="skills-section" role="contentinfo" aria-labelledby="skills">
-                    <h2><span id="skills"></span>Skills</h2>
-                
-                    <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-                        <div class="icon">
+         
+
+            <h3 className="flex justify-center text-3xl py-1 dark:text-white ">Skills</h3>
+
+            <section class="skills-section" role="contentinfo" aria-labelledby="skills">                 
+                    <div className="text-5xl grid grid-cols-5 gap-1  py-16 text-gray-600 dark:text-gray-400">
+                        <div class="flex justify-center">
                             <i class="devicon-javascript-plain"></i>
                             <DiJavascript1 />
                             {/* <span>Javascript</span> */}
                         </div>
-                        <div class="icon">
+                        <div className=" flex justify-center">
                              <DiReact/>
                             <i class="devicon-react-original"></i>
                             {/* <span>ReactJS</span> */}
                         </div>
-                        <div class="icon">
+                        <div className=" flex justify-center">
                              <SiNextdotjs />
                             <i class="devicon-nextjs-original"></i>
                             {/* <span>NextJS</span> */}
                         </div>
-                        <div class="icon">
-                            <i class="devicon-typescript-plain"></i>
-                            {/* <span>TypeScript</span> */}
-                        </div>
-                        <div class="icon">
+                        <div className=" flex justify-center">
+                             <DiSass />
                             <i class="devicon-sass-original"></i>
                             {/* <span>Sass</span> */}
                         </div>
-                        <div class="icon">
-                            <i class="devicon-materialui-plain"></i>
-                            {/* <span>MaterialUI</span> */}
-                        </div>
-                        <div class="icon">
+                        <div className="flex justify-center">
+                              <DiBootstrap />
                             <i class="devicon-bootstrap-plain"></i>
                             {/* <span>Bootstrap</span> */}
                         </div>
-                        <div class="icon">
+                        <div className=" ">
+                              <SiTailwindcss />
                             <i class="devicon-tailwindcss-plain"></i>
                             {/* <span>Tailwind CSS</span> */}
                         </div>
-                        <div class="icon">
+                        <div className=" ">
+                              <SiExpress />
                             <i class="devicon-express-original"></i>
                             {/* <span>ExpressJS</span> */}
                         </div>
-                        <div class="icon">
+                        <div className=" ">
+                              <DiNodejsSmall />
                             <i class="devicon-nodejs-plain"></i>
                             {/* <span>NodeJS</span> */}
                         </div>
-                        <div class="icon">
+                        <div className=" ">
+                              <DiMongodb />
                             <i class="devicon-mongodb-plain"></i>
                             {/* <span>Mongodb</span> */}
                         </div>
-                        <div class="icon">
+                        <div className=" ">
+                              <DiGithubBadge />
                             <i class="devicon-git-plain"></i>
                             {/* <span>Git</span> */}
                         </div>
-                        <div class="icon">
+                        <div className=" flex justify-center">
+                               <SiJira />
                             <i class="devicon-jira-plain"></i>
                             {/* <span>Jira</span> */}
                         </div>
-                        <div class="icon">
+                        <div className=" flex justify-center">
+                               <SiPython />
                             <i class="devicon-confluence-original"></i>
-                            {/* <span>Confluence</span> */}
+                            {/* <span>Python</span> */}
                         </div>
-                        <div class="icon">
+                        <div className=" flex justify-center">
+                               <TbBrandVscode />
                             <i class="devicon-vscode-plain"></i>
                             {/* <span>VSCode</span> */}
                         </div>
-                    </div>
-                    <h3 class="h4">Design</h3>
-                    <div class="skills-icons">
-                        <div class="icon">
-                            <i class="devicon-figma-plain"></i>
-                            {/* <span>Figma</span> */}
+                        <div className=" flex justify-center">
+                              <SiJetbrains />
+                            <i class="devicon-vscode-plain"></i>
+                            {/* <span>JetBrains</span> */}
                         </div>
-                        <div class="icon">
-                            <i class="devicon-xd-plain"></i>
-                            {/* <span>Adobe XD</span> */}
+                        <div className=" flex justify-center">
+                              <SiPostgresql />
+                            <i class="devicon-vscode-plain"></i>
+                            {/* <span>JetBrains</span> */}
                         </div>
-                        <div class="icon">
-                            <i class="devicon-photoshop-plain"></i>
-                            {/* <span>Photoshop</span> */}
-                        </div>
-                        <div class="icon">
-                            <i class="devicon-illustrator-plain"></i>
-                            {/* <span>Illustrator</span> */}
-                        </div>
-                        <div class="icon">
-                            <i class="devicon-aftereffects-plain"></i>
-                            {/* <span>After Effects</span> */}
-                        </div>
-
                     </div>
                 </section>
 
 
-            <h3 className="text-3xl py-1 dark:text-white ">Skills</h3>
+
+
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
