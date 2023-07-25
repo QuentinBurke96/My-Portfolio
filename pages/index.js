@@ -1,10 +1,13 @@
 import Head from "next/head";
 import {
-  AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillYoutube,
   AiFillGithub,
 } from "react-icons/ai";
+import { 
+  DiJavascript1,
+  DiReact
+} from "react-icons/di";
+import { SiNextdotjs } from "react-icons/si";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 // import deved from "/public/dev-ed-wave.png";
@@ -63,6 +66,7 @@ export default function Home() {
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillGithub />
               <AiFillLinkedin />
+              
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               {/* <Image src={} layout="fill" objectFit="cover" /> */}
@@ -71,6 +75,101 @@ export default function Home() {
         </section>
         <section>
           <div>
+          <section class="skills-section" role="contentinfo" aria-labelledby="skills">
+                    <h2><span id="skills"></span>Skills</h2>
+                
+                    <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+                        <div class="icon">
+                            <i class="devicon-javascript-plain"></i>
+                            <DiJavascript1 />
+                            {/* <span>Javascript</span> */}
+                        </div>
+                        <div class="icon">
+                             <DiReact/>
+                            <i class="devicon-react-original"></i>
+                            {/* <span>ReactJS</span> */}
+                        </div>
+                        <div class="icon">
+                             <SiNextdotjs />
+                            <i class="devicon-nextjs-original"></i>
+                            {/* <span>NextJS</span> */}
+                        </div>
+                        <div class="icon">
+                            <i class="devicon-typescript-plain"></i>
+                            {/* <span>TypeScript</span> */}
+                        </div>
+                        <div class="icon">
+                            <i class="devicon-sass-original"></i>
+                            {/* <span>Sass</span> */}
+                        </div>
+                        <div class="icon">
+                            <i class="devicon-materialui-plain"></i>
+                            {/* <span>MaterialUI</span> */}
+                        </div>
+                        <div class="icon">
+                            <i class="devicon-bootstrap-plain"></i>
+                            {/* <span>Bootstrap</span> */}
+                        </div>
+                        <div class="icon">
+                            <i class="devicon-tailwindcss-plain"></i>
+                            {/* <span>Tailwind CSS</span> */}
+                        </div>
+                        <div class="icon">
+                            <i class="devicon-express-original"></i>
+                            {/* <span>ExpressJS</span> */}
+                        </div>
+                        <div class="icon">
+                            <i class="devicon-nodejs-plain"></i>
+                            {/* <span>NodeJS</span> */}
+                        </div>
+                        <div class="icon">
+                            <i class="devicon-mongodb-plain"></i>
+                            {/* <span>Mongodb</span> */}
+                        </div>
+                        <div class="icon">
+                            <i class="devicon-git-plain"></i>
+                            {/* <span>Git</span> */}
+                        </div>
+                        <div class="icon">
+                            <i class="devicon-jira-plain"></i>
+                            {/* <span>Jira</span> */}
+                        </div>
+                        <div class="icon">
+                            <i class="devicon-confluence-original"></i>
+                            {/* <span>Confluence</span> */}
+                        </div>
+                        <div class="icon">
+                            <i class="devicon-vscode-plain"></i>
+                            {/* <span>VSCode</span> */}
+                        </div>
+                    </div>
+                    <h3 class="h4">Design</h3>
+                    <div class="skills-icons">
+                        <div class="icon">
+                            <i class="devicon-figma-plain"></i>
+                            {/* <span>Figma</span> */}
+                        </div>
+                        <div class="icon">
+                            <i class="devicon-xd-plain"></i>
+                            {/* <span>Adobe XD</span> */}
+                        </div>
+                        <div class="icon">
+                            <i class="devicon-photoshop-plain"></i>
+                            {/* <span>Photoshop</span> */}
+                        </div>
+                        <div class="icon">
+                            <i class="devicon-illustrator-plain"></i>
+                            {/* <span>Illustrator</span> */}
+                        </div>
+                        <div class="icon">
+                            <i class="devicon-aftereffects-plain"></i>
+                            {/* <span>After Effects</span> */}
+                        </div>
+
+                    </div>
+                </section>
+
+
             <h3 className="text-3xl py-1 dark:text-white ">Skills</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
@@ -81,36 +180,34 @@ export default function Home() {
               for both business and consumer use.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+              I offer from a wide range of services including brand design,
+              programming and application mockups.
             </p>
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Beautiful Designs
+                Design
               </h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
+              Crafting sophisticated creations tailored to your requirements while adhering to fundamental design principles.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
+              <h4 className="py-4 text-teal-600">Design Tools</h4>
               <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
+              <p className="text-gray-800 py-1">Affinity</p>
               <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1">Illustrator</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Code your dream project
+                Development
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
-                reality.
+                Got a brilliant idea for your next website? Let's bring it to life!
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
+              <h4 className="py-4 text-teal-600"></h4>
               <p className="text-gray-800 py-1">Photoshop</p>
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Figma</p>
