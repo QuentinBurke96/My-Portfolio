@@ -74,7 +74,7 @@ export default function Home() {
               Quentin Burke
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Developer and designer.
+              Full Stack Developer
             </h3>
             <p className="font-extralight text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Perfecting my skills as a Full Stack Developer accustomed to
@@ -150,18 +150,13 @@ export default function Home() {
               </div>
             </section>
             
-
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+            <p className="font-thin flex justify-center text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+             "Skill is the foundation of every great achievement." - Ralph Waldo Emerson
+        
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services including brand design,
-              programming and application mockups.
+            <p className="flex justify-center text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+              I offer from a range of services including application mockups,
+              programming and photography.
             </p>
           </div>
           
@@ -171,11 +166,11 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <SiAdobe className="text-5xl"/>
               <h3 className="text-lg font-medium pt-8 pb-2  ">Design</h3>
-              <p className="py-2">
+              <p className=" py-2">
                 Crafting sophisticated creations tailored to your requirements
                 while adhering to fundamental design principles.
               </p>
-              <h4 className="py-4 text-teal-600">Tools</h4>
+              <h4 className="py-4 text-green-800">Tools</h4>
               <p className="text-gray-800 py-1">Photoshop</p>
               <p className="text-gray-800 py-1">Affinity</p>
               <p className="text-gray-800 py-1">Figma</p>
@@ -188,7 +183,7 @@ export default function Home() {
                 Got a brilliant idea for your next website? Let's bring it to
                 life!
               </p>
-              <h4 className="py-4 text-teal-600">Tools</h4>
+              <h4 className="py-4 text-green-800">Tools</h4>
               <p className="text-gray-800 py-1">React</p>
               <p className="text-gray-800 py-1">Javascript</p>
               <p className="text-gray-800 py-1">C#</p>
@@ -200,7 +195,7 @@ export default function Home() {
               <p className="py-2">
               Taking an image, freezing a moment, reveals how rich reality truly is.
               </p>
-              <h4 className="py-4 text-teal-600">Tools</h4>
+              <h4 className="py-4 text-green-800">Tools</h4>
               <p className="text-gray-800 py-1">Sony A7III</p>
               <p className="text-gray-800 py-1">Photoshop</p>
               <p className="text-gray-800 py-1">Affinity</p>
@@ -211,17 +206,11 @@ export default function Home() {
         <section className="py-10">
           <div>
             <h3 className="flex justify-center text-3xl py-5 dark:text-white ">PORTFOLIO</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+            <p className="flex justify-center font-extralight text-md py-5 leading-8 text-gray-800 dark:text-gray-200">
+            "A developer portfolio serves as a powerful tool to proficiency skill creativity." - Dev community
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+            <p className="flex justify-center text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+              Click on the images below to view the live site!
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
