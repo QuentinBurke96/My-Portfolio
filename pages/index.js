@@ -207,7 +207,7 @@ export default function Home() {
           <div>
             <h3 className="flex justify-center text-3xl py-5 dark:text-white ">PORTFOLIO</h3>
             <p className="flex justify-center font-extralight text-md py-5 leading-8 text-gray-800 dark:text-gray-200">
-            "A developer portfolio serves as a powerful tool to showcase proficiency skill creativity." - Dev community
+            "A developer portfolio serves as a powerful tool to showcase proficiency and creativity." - Dev community
             </p>
             <p className="flex justify-center text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Click on the images below to view the live site!
