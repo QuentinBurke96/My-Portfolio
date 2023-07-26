@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      // animation: {
+      //   'bounce': 'bounce 1s linear infinite',
+      // },
       fontFamily: {
         burtons: "burtons",
         poppins: ["Poppins", "sans-serif"],

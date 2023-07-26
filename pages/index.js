@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Fade from 'react-reveal/Fade';
 import { MdComputer } from "react-icons/md";
 import { TbBrandVscode } from "react-icons/tb";
 import { 
@@ -47,9 +48,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=" bg-white px-10 dark:bg-green-950 md:px-20 lg:px-40">
+      <Fade top distance="20%" duration={1500}>
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">QBDEV</h1>
+            <h1 className="font-poppins text-xl">QBDEV</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -57,10 +59,10 @@ export default function Home() {
                   className=" cursor-pointer text-2xl"
                 />
               </li>
-              <li className="">
+              <li className="transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300">
                 <a
-                  className="animate-bounce bg-gradient-to-r from-green-800 text- to-green-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  className="bg-gradient-to-r from-green-800 text- to-green-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  href="#" 
                 >
                   Resume
                 </a>
@@ -74,7 +76,7 @@ export default function Home() {
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
               Developer and designer.
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+            <p className="font-extralight text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Perfecting my skills as a Full Stack Developer accustomed to
               working in a fast-paced, result-oriented environment.
             </p>
@@ -88,10 +90,11 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div>
+          <div>       
             <h3 className="flex justify-center text-3xl py-1 dark:text-white ">
               Skills
             </h3>
+           
 
             <section
               class="skills-section"
@@ -146,6 +149,7 @@ export default function Home() {
                 </div>
               </div>
             </section>
+            
 
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
@@ -160,6 +164,9 @@ export default function Home() {
               programming and application mockups.
             </p>
           </div>
+          
+        </section>
+        <section>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <SiAdobe className="text-5xl"/>
@@ -276,6 +283,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        </Fade>
       </main>
     </div>
   );
