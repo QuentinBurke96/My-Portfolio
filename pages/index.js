@@ -92,7 +92,7 @@ export default function Home() {
         <section>
           <div>       
             <h3 className="flex justify-center text-3xl py-1 dark:text-white ">
-              Skills
+              SKILLS
             </h3>
            
 
@@ -175,7 +175,7 @@ export default function Home() {
                 Crafting sophisticated creations tailored to your requirements
                 while adhering to fundamental design principles.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools</h4>
+              <h4 className="py-4 text-teal-600">Tools</h4>
               <p className="text-gray-800 py-1">Photoshop</p>
               <p className="text-gray-800 py-1">Affinity</p>
               <p className="text-gray-800 py-1">Figma</p>
@@ -188,32 +188,30 @@ export default function Home() {
                 Got a brilliant idea for your next website? Let's bring it to
                 life!
               </p>
-              <h4 className="py-4 text-teal-600"></h4>
+              <h4 className="py-4 text-teal-600">Tools</h4>
               <p className="text-gray-800 py-1">React</p>
               <p className="text-gray-800 py-1">Javascript</p>
               <p className="text-gray-800 py-1">C#</p>
-              <p className="text-gray-800 py-1">Flask</p>
               <p className="text-gray-800 py-1">More Skills Listed above </p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <AiOutlineCamera className="text-6xl" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Photography</h3>
               <p className="py-2">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
+              Taking an image, freezing a moment, reveals how rich reality truly is.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
+              <h4 className="py-4 text-teal-600">Tools</h4>
+              <p className="text-gray-800 py-1">Sony A7III</p>
               <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1">Affinity</p>
+              <p className="text-gray-800 py-1">Lightroom</p>
             </div>
           </div>
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <h3 className="flex justify-center text-3xl py-5 dark:text-white ">PORTFOLIO</h3>
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
               <span className="text-teal-500"> agencies </span>
