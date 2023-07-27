@@ -28,7 +28,7 @@ import {
 } from "react-icons/si";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-// import deved from "/public/dev-ed-wave.png";
+import face4 from "/public/face4.png";
 import Image from "next/image";
 import QK from "/public/QK.jpg";
 import FullMock from "/public/FullMock.jpg";
@@ -84,8 +84,8 @@ export default function Home() {
               <AiFillGithub />
               <AiFillLinkedin />
             </div>
-            <div className="mx-auto bg-gradient-to-b from-green-700 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              {/* <Image src={} layout="fill" objectFit="cover" /> */}
+            <div className=" mx-auto bg-gradient-to-b from-green-700 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+              <Image className="w-40" src={face4} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -186,7 +186,7 @@ export default function Home() {
               <h4 className="py-4 text-green-800">Tools</h4>
               <p className="text-gray-800 py-1">React</p>
               <p className="text-gray-800 py-1">Javascript</p>
-              <p className="text-gray-800 py-1">C#</p>
+              <p className="text-gray-800 py-1">Tailwind</p>
               <p className="text-gray-800 py-1">More Skills Listed above </p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -210,7 +210,7 @@ export default function Home() {
             "A developer portfolio serves as a powerful tool to showcase proficiency and creativity." - Dev community
             </p>
             <p className="flex justify-center text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Click on the images below to view the live site!
+              Click on the images below to view the live site/source code!
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
