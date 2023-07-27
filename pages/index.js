@@ -167,7 +167,7 @@ export default function Home() {
               <SiAdobe className="text-5xl"/>
               <h3 className="text-lg font-medium pt-8 pb-2  ">Design</h3>
               <p className=" py-2">
-                Crafting sophisticated creations tailored to your requirements
+                Crafting sophisticated creations tailored to your needs
                 while adhering to fundamental design principles.
               </p>
               <h4 className="py-4 text-green-800">Tools</h4>
