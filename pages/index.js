@@ -28,7 +28,7 @@ import {
 } from "react-icons/si";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import face4 from "/public/face4.png";
+import QAvatarlast from "/public/QAvatarlast.png";
 import Image from "next/image";
 import QK from "/public/QK.jpg";
 import FullMock from "/public/FullMock.jpg";
@@ -84,8 +84,8 @@ export default function Home() {
               <AiFillGithub />
               <AiFillLinkedin />
             </div>
-            <div className=" mx-auto bg-gradient-to-b from-green-700 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image className="w-40" src={face4} layout="fill" objectFit="cover" />
+            <div className=" mx-auto bg-gradient-to-b from-green-700 rounded-full w-80 h-80 relative mt-20 md:h-96 md:w-96">
+              <Image className="w-40" src={QAvatarlast} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
