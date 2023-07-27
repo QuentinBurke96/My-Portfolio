@@ -69,14 +69,14 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10 py-10">
+          <div className=" text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-green-800 font-medium dark:text-green-500 md:text-6xl">
               Quentin Burke
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
               Full Stack Developer
             </h3>
-            <p className="font-extralight text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+            <p className="font-extralight text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl  ">
               Perfecting my skills as a Full Stack Developer accustomed to
               working in a fast-paced, result-oriented environment.
             </p>
@@ -84,8 +84,8 @@ export default function Home() {
               <AiFillGithub />
               <AiFillLinkedin />
             </div>
-            <div className=" mx-auto bg-gradient-to-b from-green-700 rounded-full w-80 h-80 relative mt-20 md:h-96 md:w-96">
-              <Image className="w-40" src={QAvatarlast} layout="fill" objectFit="cover" />
+            <div style={{position:"relative"}} className="mx-auto bg-gradient-to-b from-green-700 rounded-full w-40 h-40 mt-20  md:h-96 md:w-96">
+              <Image  src={QAvatarlast} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -93,9 +93,7 @@ export default function Home() {
           <div>       
             <h3 className="flex justify-center text-3xl py-1 dark:text-white ">
               SKILLS
-            </h3>
-           
-
+            </h3>          
             <section
               class="skills-section"
               role="contentinfo"
