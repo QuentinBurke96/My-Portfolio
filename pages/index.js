@@ -28,7 +28,6 @@ import {
 } from "react-icons/si";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-// import Qres from "/public/Qres.pdf";
 import QAvatarlast from "/public/QAvatarlast.png";
 import Image from "next/image";
 import QK from "/public/QK.jpg";
@@ -82,8 +81,12 @@ export default function Home() {
               working in a fast-paced, result-oriented environment.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+            <a className="transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300" href="https://github.com/QuentinBurke96?tab=overview&from=2023-07-01&to=2023-07-27">
               <AiFillGithub />
+            </a>
+            <a className="transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300" href="https://www.linkedin.com/in/quentin-burke-57a606126/">
               <AiFillLinkedin />
+            </a>
             </div>
             <div style={{position:"relative"}} className="mx-auto bg-gradient-to-b from-green-700 rounded-full w-40 h-40 mt-20  md:h-96 md:w-96">
               <Image  src={QAvatarlast} layout="fill" objectFit="cover" />
