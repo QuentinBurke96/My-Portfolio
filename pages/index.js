@@ -28,6 +28,7 @@ import {
 } from "react-icons/si";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
+// import Qres from "/public/Qres.pdf";
 import QAvatarlast from "/public/QAvatarlast.png";
 import Image from "next/image";
 import QK from "/public/QK.jpg";
@@ -62,7 +63,7 @@ export default function Home() {
               <li className="transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300">
                 <a
                   className="bg-gradient-to-r from-green-800 text- to-green-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#" 
+                  href="Qres.pdf" download="Quentin-Burke-Resume"
                 >
                   Resume
                 </a>
@@ -153,7 +154,7 @@ export default function Home() {
         
             </p>
             <p className="flex justify-center text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a range of services including application mockups,
+              I offer a range of services including application mockups,
               programming and photography.
             </p>
           </div>
