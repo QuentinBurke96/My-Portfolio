@@ -194,7 +194,7 @@ Project Link: [https://github.com/QuentinBurke96/Photography-portfolio/tree/main
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/quentin-burke-57a606126/
 [product-screenshot]: /public/QBDEV.jpg
-[branding]: public/FullMock.jpg
+[branding]: /public/FullMock.jpg
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
