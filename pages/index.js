@@ -5,7 +5,8 @@ import { TbBrandVscode } from "react-icons/tb";
 import { 
   AiFillLinkedin, 
   AiFillGithub,
-  AiOutlineCamera
+  AiOutlineCamera,
+  AiOutlineArrowDown
 } from "react-icons/ai";
 import {
   DiJavascript1,
@@ -53,7 +54,7 @@ export default function Home() {
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             <h1 className="font-poppins text-xl">QBDEV</h1>
             <ul className="flex items-center">
-              <li>
+              <li className="transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300" >
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
                   className=" cursor-pointer text-2xl"
@@ -80,6 +81,7 @@ export default function Home() {
               Perfecting my skills as a Full Stack Developer accustomed to
               working in a fast-paced, result-oriented environment.
             </p>
+        
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <a className="transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300" href="https://github.com/QuentinBurke96?tab=overview&from=2023-07-01&to=2023-07-27">
               <AiFillGithub />
@@ -92,6 +94,7 @@ export default function Home() {
               <Image  src={QAvatarlast} layout="fill" objectFit="cover" />
             </div>
           </div>
+        
         </section>
         <section>
           <div>       
@@ -207,7 +210,7 @@ export default function Home() {
         </section>
         <section className="py-10">
           <div>
-            <h3 className="flex justify-center text-3xl py-5 dark:text-white ">PORTFOLIO</h3>
+            <h3 className="flex justify-center text-3xl py-5 dark:text-white ">PROJECTS</h3>
             <p className="flex justify-center font-extralight text-md py-5 leading-8 text-gray-800 dark:text-gray-200">
             "A developer portfolio serves as a powerful tool to showcase proficiency and creativity." - Dev community
             </p>
@@ -216,14 +219,16 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
+            <div className="transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300 basis-1/3 flex-1 ">
+            <a href="http://www.qkspacephotography.com">
               <Image
-                className="rounded-lg object-cover"
+                className=" rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={QK}
               />
+            </a>
             </div>
             <div className="basis-1/3 flex-1">
               <Image
