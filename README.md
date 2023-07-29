@@ -25,7 +25,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/QuentinBurke96/MY-Portfolio">
-    <img src="public/QAvatarlast.png Trsp.png" alt="Logo" width="200">
+    <img src="public/QAvatarlast Trsp.png" alt="Logo" width="200">
   </a>
 
   <p align="center">
