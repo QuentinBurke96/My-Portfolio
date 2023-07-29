@@ -6,7 +6,6 @@ import {
   AiFillLinkedin,
   AiFillGithub,
   AiOutlineCamera,
-  AiOutlineArrowDown,
 } from "react-icons/ai";
 import {
   DiJavascript1,
@@ -34,7 +33,7 @@ import Image from "next/image";
 import QK from "/public/QK.jpg";
 import FullMock from "/public/FullMock.jpg";
 import QBDEV from "/public/QBDEV.jpg";
-import web4 from "/public/web4.png";
+import Green from "/public/GreenCard.jpg";
 import web5 from "/public/web5.png";
 import web6 from "/public/web6.png";
 
@@ -261,13 +260,24 @@ export default function Home() {
                   />
                 </a>
               </div>
-              <div className="basis-1/3 flex-1">
+              <div className="transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300 basis-1/3 flex-1">
+              <a href="http://www.qkspacephotography.com"> 
                 <Image
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
                   src={FullMock}
+                />
+              </a>
+              </div>
+              <div className="basis-1/3 flex-1">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={Green}
                 />
               </div>
               <div className="basis-1/3 flex-1">
@@ -279,16 +289,7 @@ export default function Home() {
                   src={QBDEV}
                 />
               </div>
-              <div className="basis-1/3 flex-1">
-                <Image
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web4}
-                />
-              </div>
-              <div className="basis-1/3 flex-1">
+              {/* <div className="basis-1/3 flex-1">
                 <Image
                   className="rounded-lg object-cover"
                   width={"100%"}
@@ -305,7 +306,7 @@ export default function Home() {
                   layout="responsive"
                   src={web6}
                 />
-              </div>
+              </div> */}
             </div>
           </section>
         </Fade>
