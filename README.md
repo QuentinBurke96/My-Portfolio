@@ -24,21 +24,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/QuentinBurke96/Photography-portfolio">
-    <img src="Public/images/BLK Trsp.jpg" alt="Logo" width="200">
+  <a href="https://github.com/QuentinBurke96/MY-Portfolio">
+    <img src="public/QAvatarlast.jpg Trsp.jpg" alt="Logo" width="200">
   </a>
 
   <p align="center">
     Astablished in 2021 at the height of the pandemic, we were never truly able to capture the moments of our once in a lifetime wedding the way we truly wanted. We have made it our mission to provide a service where we can make dreams a reality. 
     <br />
-    <a href="https://github.com/QuentinBurke96/Photography-portfolio"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/QuentinBurke96/MY-Portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://qkspacephotography.com/">View Site</a>
     ·
-    <a href="https://github.com/QuentinBurke96/Photography-portfolio/issues">Report Bug</a>
+    <a href="https://github.com/QuentinBurke96/MY-Portfolio/issues">Report Bug</a>
     ·
-    <a href="https://github.com/QuentinBurke96/Photography-portfolio/issues">Request Feature</a>
+    <a href="https://github.com/QuentinBurke96/MY-Portfolio/issues">Request Feature</a>
   </p>
 </div>
 
@@ -194,7 +194,7 @@ Project Link: [https://github.com/QuentinBurke96/Photography-portfolio/tree/main
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/quentin-burke-57a606126/
 [product-screenshot]: /public/QBDEV.jpg
-[branding]: /public/FullMock.jpg
+[branding]: /public/GreenCard.jpg
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
