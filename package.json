@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
-    "start": "next start",
+    "dev": "npm run dev",
+    "build": "npm run build",
+    "start": "npm run start",
     "export": "next export",
     "lint": "next lint"
   },
@@ -13,9 +14,9 @@
     "eslint-config-next": "^13.4.12",
     "icons": "^1.0.0",
     "moment": "^2.29.4",
-    "next": "13.4.12",
+    "next": "^13.4.12",
     "react": "^18.2.0",
-    "react-dom": "18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-reveal": "^1.2.2"
   },
