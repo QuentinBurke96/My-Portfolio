@@ -29,7 +29,7 @@
   </a>
 
   <p align="center">
-    Astablished in 2021 at the height of the pandemic, we were never truly able to capture the moments of our once in a lifetime wedding the way we truly wanted. We have made it our mission to provide a service where we can make dreams a reality. 
+    A culmination of works dedicated to showcasing my design and development skills. 
     <br />
     <a href="https://github.com/QuentinBurke96/My-Portfolio"><strong>Explore the docs »</strong></a>
     <br />
