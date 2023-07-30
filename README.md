@@ -105,9 +105,10 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* React
   ```sh
-  npm install npm@latest -g
+  //Follow prompt to install TailwindCss
+  npx create-next-app
   ```
 
 ### Installation
@@ -119,15 +120,10 @@ This is an example of how to list things you need to use the software and how to
 3. Install node packages
    ```sh
    npm install
-   npm i express
-   npm i nodemailer
-   npm i simpleLightbox
+   npm i react-icons
+   npm i react-reveal
+   npm i -D tailwindcss
    
-   ```
-4. Set environment variables `.env`
-   ```js
-   // Note: Chrome requires application specific passwords. Navigate to Google -> Account -> Security to set up.
-   Pass = "Application Specific Password"
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
