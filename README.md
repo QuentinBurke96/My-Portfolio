@@ -24,21 +24,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/QuentinBurke96/MY-Portfolio">
+  <a href="https://github.com/QuentinBurke96/My-Portfolio">
     <img src="public/QAvatarlast.png" Trsp.png" alt="Logo" width="200">
   </a>
 
   <p align="center">
     Astablished in 2021 at the height of the pandemic, we were never truly able to capture the moments of our once in a lifetime wedding the way we truly wanted. We have made it our mission to provide a service where we can make dreams a reality. 
     <br />
-    <a href="https://github.com/QuentinBurke96/MY-Portfolio"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/QuentinBurke96/My-Portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://qkspacephotography.com/">View Site</a>
     ·
-    <a href="https://github.com/QuentinBurke96/MY-Portfolio/issues">Report Bug</a>
+    <a href="https://github.com/QuentinBurke96/My-Portfolio/issues">Report Bug</a>
     ·
-    <a href="https://github.com/QuentinBurke96/MY-Portfolio/issues">Request Feature</a>
+    <a href="https://github.com/QuentinBurke96/My-Portfolio/issues">Request Feature</a>
   </p>
 </div>
 
@@ -83,10 +83,10 @@
 
 ### Built With
 
+* [React](https://react.dev/)
+* [Next.js](https://nextjs.org/docs)
 * [Node.js](https://nodejs.org/en)
-* [SimpleLightbox](https://simplelightbox.com/)
-* [Express.js](https://expressjs.com/)
-* [Nodemailer](https://nodemailer.com/about/)
+* [TailwindCss](https://tailwindcss.com/)
 * HTML5
 * CSS
 * JS
@@ -185,12 +185,12 @@ Project Link: [https://github.com/QuentinBurke96/Photography-portfolio/tree/main
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/QuentinBurke96/Photography-portfolio.svg?style=for-the-badge
-[contributors-url]: https://github.com/QuentinBurke96/Photography-portfolio/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/QuentinBurke96/Photography-portfolio.svg?style=for-the-badge
-[forks-url]: https://github.com/QuentinBurke96/Photography-portfolio/forks
-[issues-shield]: https://img.shields.io/github/issues/QuentinBurke96/Photography-portfolio.svg?style=for-the-badge
-[issues-url]: https://github.com/QuentinBurke96/Photography-portfolio/issues
+[contributors-shield]: https://img.shields.io/github/contributors/QuentinBurke96/My-Portfolio.svg?style=for-the-badge
+[contributors-url]: https://github.com/QuentinBurke96/My-Portfolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/QuentinBurke96/My-Portfolio.svg?style=for-the-badge
+[forks-url]: https://github.com/QuentinBurke96/My-Portfolio/forks
+[issues-shield]: https://img.shields.io/github/issues/QuentinBurke96/My-Portfolio.svg?style=for-the-badge
+[issues-url]: https://github.com/QuentinBurke96/My-Portfolio/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/quentin-burke-57a606126/
 [product-screenshot]: /public/QBDEV.jpg
