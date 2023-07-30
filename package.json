@@ -1,28 +1,41 @@
 {
   "name": "react-portfolio",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "npm run dev",
-    "build": "npm run build",
-    "start": "npm run start",
-    "export": "next export",
-    "lint": "next lint"
-  },
+  "version": "1.0.0",
+  "description": "<div id=\"top\"></div> <!-- *** Thanks for checking out the Best-README-Template. If you have a suggestion *** that would make this better, please fork the repo and create a pull request *** or simply open an issue with the tag \"enhancement\". *** Don't forget to give the project a star! *** Thanks again! Now go create something AMAZING! :D -->",
+  "main": "next.config.js",
   "dependencies": {
-    "eslint": "^8.45.0",
-    "eslint-config-next": "^13.4.12",
-    "icons": "^1.0.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.46.0",
     "moment": "^2.29.4",
     "next": "^13.4.12",
+    "postcss": "^8.4.27",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
-    "react-reveal": "^1.2.2"
+    "react-reveal": "^1.2.2",
+    "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.27",
-    "tailwindcss": "^3.3.3"
-  }
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "eslint-config-next": "^13.4.12",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuentinBurke96/My-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuentinBurke96/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/QuentinBurke96/My-Portfolio#readme"
 }

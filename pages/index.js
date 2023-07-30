@@ -56,9 +56,9 @@ export default function Home() {
       </Head>
       <main className=" bg-white px-10 dark:bg-green-950 md:px-20 lg:px-40">
 <div className="fixed top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full max-w-lg">
-  <div className="fixed bottom-20 -left-1 w-96 h-96 bg-cyan-800 rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob"></div>
-  <div className="fixed bottom-20 -right-1 w-96 h-96 bg-yellow-200 rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob animation-delay-2000"></div>
-  <div className="fixed -bottom-20 w-96 h-96 bg-green-600 rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob animation-delay-4000"></div>
+  <div className="fixed bottom-20 -left-1 w-96 h-96 bg-cyan-800 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
+  <div className="fixed bottom-20 -right-1 w-96 h-96 bg-yellow-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
+  <div className="fixed -bottom-20 w-96 h-96 bg-green-600 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
 </div>
         <Fade top distance="20%" duration={1500}>
           <section className="min-h-screen">
