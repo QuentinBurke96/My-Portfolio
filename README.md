@@ -106,8 +106,8 @@ To get a local copy up and running follow these simple example steps.
 
 * React
   ```sh
-  //Follow prompt to install TailwindCss
   npx create-next-app
+  //Continue to ollow prompt to install TailwindCss
   ```
 
 ### Installation
