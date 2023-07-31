@@ -5,6 +5,7 @@
   "main": "next.config.js",
   "dependencies": {
     "autoprefixer": "^10.4.14",
+    "dotenv": "^16.3.1",
     "eslint": "^8.46.0",
     "moment": "^2.29.4",
     "next": "^13.4.12",
