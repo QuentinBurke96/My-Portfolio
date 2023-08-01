@@ -1,5 +1,7 @@
 import Head from "next/head";
-import Fade from "react-reveal/Fade";
+// Next update
+// import { motion, useScroll, useSpring } from "framer-motion";
+import Fade from "react-awesome-reveal";
 import { MdComputer } from "react-icons/md";
 import { TbBrandVscode } from "react-icons/tb";
 import {
@@ -34,11 +36,15 @@ import QK from "/public/QK.jpg";
 import FullMock from "/public/FullMock.jpg";
 import QBDEV from "/public/QBDEV.jpg";
 import Green from "/public/GreenCard.jpg";
-import web5 from "/public/web5.png";
-import web6 from "/public/web6.png";
+import Buster from "/public/Buster.jpg";
+import Alle from "/public/Alle.jpg";
+
+
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
+  
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -55,12 +61,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=" bg-white px-10 dark:bg-green-950 md:px-20 lg:px-40">
-<div className="fixed top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full max-w-lg">
-  <div className="fixed bottom-20 -left-1 w-96 h-96 bg-cyan-800 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
+      {/* <div className="fixed top-0 left-0 right-0 h-1 bg-red-500 transform origin-left">
+    <motion.div
+      className="h-full bg-green-500"
+      style={{ scaleX }}
+    ></motion.div>
+  </div> */}
+ <div className="fixed top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full max-w-lg">
+  <div className="fixed bottom-20 -left-1 w-96 h-96 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
   <div className="fixed bottom-20 -right-1 w-96 h-96 bg-yellow-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
   <div className="fixed -bottom-20 w-96 h-96 bg-green-600 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
-</div>
-        <Fade top distance="20%" duration={1500}>
+ </div>
+        <Fade distance="20%" duration={1500}>
           <section className="min-h-screen">
             <nav className="py-10 mb-12 flex justify-between dark:text-white">
               <h1 className="font-poppins text-xl">QBDEV</h1>
@@ -289,24 +301,29 @@ export default function Home() {
                   src={QBDEV}
                 />
               </div>
-              {/* <div className="basis-1/3 flex-1">
+              
+              <div className="transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300 basis-1/3 flex-1">
+              <a href="https://github.com/Allergy-Busters/frontend"> 
                 <Image
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
-                  src={web5}
+                  src={Buster}
                 />
+              </a>
               </div>
-              <div className="basis-1/3 flex-1">
+              <div className="transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300 basis-1/3 flex-1">
+              <a href="https://github.com/Allergy-Busters/frontend"> 
                 <Image
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
-                  src={web6}
+                  src={Alle}
                 />
-              </div> */}
+              </a>
+              </div>
             </div>
           </section>
         </Fade>
