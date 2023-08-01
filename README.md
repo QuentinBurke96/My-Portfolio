@@ -34,7 +34,7 @@
     <a href="https://github.com/QuentinBurke96/My-Portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://qkspacephotography.com/">View Site</a>
+    <a href="https://qbdev.dev/">View Site</a>
     ·
     <a href="https://github.com/QuentinBurke96/My-Portfolio/issues">Report Bug</a>
     ·
