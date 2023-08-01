@@ -60,12 +60,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=" bg-white px-10 dark:bg-green-950 md:px-20 lg:px-40">
-      {/* <div className="fixed top-0 left-0 right-0 h-1 bg-red-500 transform origin-left">
-    <motion.div
-      className="h-full bg-green-500"
-      style={{ scaleX }}
-    ></motion.div>
-  </div> */}
  <div className="fixed top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full max-w-lg">
   <div className="fixed bottom-20 -left-1 w-96 h-96 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
   <div className="fixed bottom-20 -right-1 w-96 h-96 bg-yellow-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
