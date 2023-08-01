@@ -1,5 +1,4 @@
-import Head from "next/head";
-// Next update
+import Head from "next/head"
 // import { motion, useScroll, useSpring } from "framer-motion";
 import Fade from "react-awesome-reveal";
 import { MdComputer } from "react-icons/md";
