@@ -117,14 +117,11 @@ export default function Home() {
                 style={{ position: "relative" }}
                 className=" mx-auto bg-gradient-to-b from-green-700 rounded-full w-40 h-40 mt-20  md:h-96 md:w-96"
               >
-                <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
                   <Image
-                    className="transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300"
                     src={QAvatarlast}
                     layout="fill"
                     objectFit="cover"
                   />
-                </a>
               </div>
             </div>
           </section>
@@ -276,7 +273,8 @@ export default function Home() {
                 />
               </a>
               </div>
-              <div className="basis-1/3 flex-1">
+              <div className="transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300 basis-1/3 flex-1">
+              <a href="https://qbdev.dev/">
                 <Image
                   className="rounded-lg object-cover"
                   width={"100%"}
@@ -284,8 +282,10 @@ export default function Home() {
                   layout="responsive"
                   src={Green}
                 />
+              </a>
               </div>
-              <div className="basis-1/3 flex-1">
+              <div className="transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300 basis-1/3 flex-1">
+              <a href="https://qbdev.dev/">
                 <Image
                   className="rounded-lg object-cover"
                   width={"100%"}
@@ -293,6 +293,7 @@ export default function Home() {
                   layout="responsive"
                   src={QBDEV}
                 />
+              </a>
               </div>
               
               <div className="transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300 basis-1/3 flex-1">
