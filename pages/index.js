@@ -119,7 +119,7 @@ export default function Home() {
               >
                   <Image
                     src={QAvatarlast}
-                    layout="responsive"
+                    layout="fill"
                     objectFit="cover"
                   />
               </div>
