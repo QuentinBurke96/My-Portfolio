@@ -1,6 +1,6 @@
 import Head from "next/head"
 // import { motion, useScroll, useSpring } from "framer-motion";
-import Fade from "react-awesome-reveal";
+// import Fade from "react-awesome-reveal";
 import { MdComputer } from "react-icons/md";
 import { TbBrandVscode } from "react-icons/tb";
 import {
@@ -65,7 +65,7 @@ export default function Home() {
   <div className="fixed bottom-20 -right-1 w-96 h-96 bg-yellow-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
   <div className="fixed -bottom-20 w-96 h-96 bg-green-600 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
  </div>
-        <Fade distance="20%" duration={1500}>
+        {/* <Fade distance="20%" duration={1500}> */}
           <section className="min-h-screen">
             <nav className="py-10 mb-12 flex justify-between dark:text-white">
               <h1 className="font-poppins text-xl">QBDEV</h1>
@@ -320,7 +320,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-        </Fade>
+        {/* </Fade> */}
       </main>
     </div>
   );
