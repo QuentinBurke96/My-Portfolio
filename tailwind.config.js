@@ -21,7 +21,7 @@ module.exports = {
           "66%" : {
             transform: "translate(-20px, 20px) scale(0.7)",
           },  
-          "66%" : {
+          "100%" : {
             transform: "translate(0px, 0px)scale(1)",
           },  
         }
